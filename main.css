@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+	color: #888;
+	height: 100px;
+	width: auto;
+}
+
+.questions{
+	margin: 0 auto!important;
+}
+
+.question, .buttonStart{
+  background: #dcdddc;
+  color: #888;
+  padding: 2em;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+  width: 60%;
+  margin: 0 auto;
+}
+
+button {
+	color:grey;
+}
+
+.answer {
+	margin: 0 auto;
+	width: 60%;
+	padding: 1em;
+	background-color: #dcdddc;
+	color: #888;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.answer:nth-child(even) {
+    background: #e1e1e1; }
+
+.hidden {
+	display: none;
+}
